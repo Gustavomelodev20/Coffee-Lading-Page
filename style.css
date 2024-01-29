@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+main {
+    background-color: rgb(245, 245, 245);
+    height: 90vh;
+    width: 100vw;
+    min-width: 100vw;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: wrap;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.your {
+    font-size: 3rem;
+    top: 100px ;
+    left: 100px;
+}
+#intro {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+#desc {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+#cupcoffee {
+    position: relative;
+    top: 100px;
+    left: -150px;
+}
+#coffees {
+    margin-top: 50px;
+    margin-right: -100px;
+}
+a {
+    text-decoration: none;
+    margin: 30px;
+    background-color: #A36A4F ;
+    padding: 15px 50px;
+    color: white;
+    border-radius: 50px;
+    font-family: sans-serif;
+}
+a:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid#A36A4F;
+}
+
+#infos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    top: -50px;
+    background-color: #ECDAC4;
+    width: 800px;
+    height: 190px;
+    border-radius: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.num {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.exp {
+    min-width: 170px;
+}
+.info:hover {
+    cursor: default;
+    color: #A36A4F;
+}
+
+#details {
+    background-color: #363032;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+#details p {
+    color: rgba(255, 255, 255, 0.589);
+    max-width: 186px;
+    padding: 10px;
+}
+body {
+    background-color: #363032;
+    overflow-x: hidden;
+}
+footer {
+    background-color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
